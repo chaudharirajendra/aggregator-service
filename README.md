@@ -1,6 +1,6 @@
-# Feed Service
+# aggregator Service
 
-This is a Feed Service application built in Go using the Gin web framework. It fetches data from external services (repair and session services), combines the results, and serves the data with sorting and pagination.
+This is a Aggregator Service application built in Go using the Gin web framework. It fetches data from external services (repair and session services), combines the results, and serves the data with sorting and pagination.
 
 ## Features
 - Fetches repair and session data from external services.

@@ -28,13 +28,10 @@ cd feed-service
 
 Before running the application, set the following environment variables to provide the URLs for the repair and session services.
 
-- REPAIR_SERVICE_URL: The URL for the repair service (e.g., http://localhost:8082/repairs).
-- SESSION_SERVICE_URL: The URL for the session service (e.g., http://localhost:8083/sessions).
-
 ```bash
+export MACHINE_SERVICE_URL="http://localhost:8081/machine"
 export REPAIR_SERVICE_URL="http://localhost:8082/repairs"
 export SESSION_SERVICE_URL="http://localhost:8083/sessions"
-export MACHINE_SERVICE_URL="http://localhost:8081/machine"
 ```
 
 ## Running the Application
